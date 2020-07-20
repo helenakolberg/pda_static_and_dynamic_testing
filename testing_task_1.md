@@ -35,6 +35,7 @@ end
 # 'end' should have the same indentation as the first line of the function
 
 def self.cards_total(cards)
+# this should be an instance method not a class method ('self' is unneccessary)
   total
   # total needs to have a value
   for card in cards
