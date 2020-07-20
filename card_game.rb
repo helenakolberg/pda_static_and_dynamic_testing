@@ -20,14 +20,13 @@ class CardGame
     end
   end
 
-#   dif highest_card(card1 card2)
-#   if card1.value > card2.value
-#     return card
-#   else
-#     return card2
-#   end
-# end
-# end
+  def highest_card(card1, card2)
+    if card1.value > card2.value
+      return card
+    else
+      return card2
+    end
+  end
 
 # def self.cards_total(cards)
 #   total
