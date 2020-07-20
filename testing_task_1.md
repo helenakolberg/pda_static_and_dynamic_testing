@@ -6,7 +6,7 @@
 
 class CardGame
 
-# the function doesn't have an initialize method
+# the function doesn't have an initialize method or getters
 
 
   def checkforAce(card)
@@ -41,6 +41,8 @@ def self.cards_total(cards)
   for card in cards
     total += card.value
     return "You have a total of" + total
+    # the value should be returned after the end of the for loop
+    # string interpolation should be used: "You have a total of #{total}"
   end
 end
 
